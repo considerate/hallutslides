@@ -18,6 +18,10 @@ q, blockquote {
   font-weight: bold;
 }
 
+em {
+  font-style: italic;
+}
+
 /* line 20, ../scss/io2013.scss */
 slides > slide {
   color: #515151;
@@ -51,4 +55,8 @@ slides > slide.title-slide hgroup h2 {
 /* line 46, ../scss/io2013.scss */
 slides > slide.title-slide hgroup p {
   margin-top: 3em;
+}
+
+li.nobullet:before {
+  content: '';
 }
