@@ -60,3 +60,7 @@ slides > slide.title-slide hgroup p {
 li.nobullet:before {
   content: '';
 }
+
+.thank-you-slide a {
+  color: white;
+}

@@ -18,7 +18,7 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    name: 'Viktor',
+    name: 'Viktor Kronvall',
     company: '',
     gplus: 'http://plus.google.com/1234567890',
     twitter: '@yourhandle',
@@ -26,7 +26,7 @@ var SLIDE_CONFIG = {
     github: 'http://github.com/you'
   }, 
   {
-    name: 'Christopher',
+    name: 'Christopher Lillthors',
     company: '',
     gplus: 'http://plus.google.com/1234567890',
     twitter: '@yourhandle',
@@ -34,7 +34,7 @@ var SLIDE_CONFIG = {
     github: 'http://github.com/you'
   }, 
   {
-    name: 'Per',
+    name: 'Per Mångs',
     company: '',
     gplus: 'http://plus.google.com/1234567890',
     twitter: '@yourhandle',
@@ -42,7 +42,7 @@ var SLIDE_CONFIG = {
     github: 'http://github.com/you'
   }, 
   {
-    name: 'Robert',
+    name: 'Robert Lundin',
     company: '',
     gplus: 'http://plus.google.com/1234567890',
     twitter: '@yourhandle',
