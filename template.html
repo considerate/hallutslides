@@ -18,6 +18,7 @@ URL: https://code.google.com/p/io-2012-slides
   <!--<meta name="viewport" content="initial-scale=0.4">-->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="all" href="theme/css/io2013.css">
   <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
   <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
   <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
@@ -55,7 +56,7 @@ URL: https://code.google.com/p/io-2012-slides
       <em>Tänk om alla system kring dig, utan att du behövde göra något, effektivserade sin energianvändning av sig självt.</em>
       </p>
       <p>
-      Det tänkte vi och vi tycker att det borde bli en verklighet.
+      Det tänkte vi. Vi tycker att det borde bli en verklighet.
       </p>
       <p>
       Därför valde vi till vårt projekt att jobba med att utveckla ett system som mäter av temperaturförändringar som samlas för analys för att senare byggas ut för att optimera användning för flera olika användningsområden såsom belysning. 
@@ -65,7 +66,7 @@ URL: https://code.google.com/p/io-2012-slides
       </p>
       <blockquote>"Imagination is more important than knowledge."</blockquote> - Albert Einstein
 
-      <img src="images/thinker.jpg" style="height: 300px; position: absolute; bottom: 0; right: 0;">
+      <img src="images/thinker.jpg" style="height: 300px; position: absolute; bottom: 0; right: 0; z-index: -1;">
     </article>
   </slide>
 
@@ -101,7 +102,7 @@ URL: https://code.google.com/p/io-2012-slides
           <li>Analys</li>
           <li>Styrning</li>
         </ul></li>
-        <li>
+        <li class="nobullet">
           <img src="images/Arkitektur.png" style="z-index: -1;height: 450px; top:0; right: 0; position: absolute;">
         </li>
       </ul>
@@ -117,6 +118,23 @@ URL: https://code.google.com/p/io-2012-slides
     </article>
   </slide>
 
+  <slide>
+    <hgroup>
+      <h2>Data och statistik</h2>
+    </hgroup>
+    <article>
+      <ul>
+        <li>Genomsnittlig energianvänding för uppvärmning är 113kWh-144kWh per kvadratmeter per år i småhus, flerbostadshus och lokaler.</li>
+        <li></li>
+        <li>Raspberry pi förbrukar som mest 4W el. Detta motsvarar i värsta fall 96Wh per dygn, vilket kan jämföras med att använda en 60W glödlampa i lite drygt 1,5 timmar. Oftast ligger dock förbrukningen för Raspberry pi under halva det värdet.
+        </li>
+        <li>Den sensor vi hade i vår prototyp har en effekt på 30μW.</li>
+        <li>Detta innebär att ett rum på 20 kvadratmeter har en genomsnittlig förbrukning på över 6200Wh per dygn endast för uppvärmning. Om vi kan förminska denna summa med så lite som 1,5% har vi alltså sparat energi. För större lokaler kan dock energibesparingen antas vara ännu större.</li>
+      </ul>
+    </article>
+    <footer>(Energimyndigheten 2012)</footer>
+  </slide>
+
   <slide class="thank-you-slide segue nobackground">
     <aside class="gdbar right"></aside>
     <article class="flexbox vleft auto-fadein">
@@ -126,7 +144,7 @@ URL: https://code.google.com/p/io-2012-slides
       <!-- populated from slide_config.json -->
     </p>
   </slide>
-
+  
   <slide class="backdrop"></slide>
 </slides>
 </body>
