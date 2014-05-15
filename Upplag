@@ -1,0 +1,16 @@
+Upplägg
+=======
+
+Medlemmar: Viktor Kronvall, Christopher Lillthors, Per Mångs, Robert Lundin
+
+Gruppnamn: "Hållut \| /dev/null"
+
+Projekts ämne: energiförbrukning, optimering.
+
+Syfte: Många lämnar hemmet med värme på samma temperatur som de hade när de är i huset. Detta gör att när huset står tomt så förbrukas onödig energi till uppvärmning.
+
+\<\<\<\<\<\<\< HEAD Frågor: Kan man sänka energiförbrukning/utsläpp med hjälp av IKT/ett övervakande system av ett hushålls uppvärmning ? ======= Frågor: Kan man sänka energiförbrukning/utsläpp med hjälp av IKT/ett övervakande system av ett hushålls uppvärmning ? \>\>\>\>\>\>\> b576f440772e8ad7c59ec38974398928769455aa
+
+Metod : Vi tänker skapa en IKT-produkt som hjälper användaren med sin energikonsumtion genom att mäta och reglera uppvärmningen i hemmet. Med hjälp av två rasberry pie som kommer utgöra sensor för värmemätningar respektive server för datahantering och lagring. Serven kommer hantera datan och rita grafer baserat på värmemätningarna. Tanken med denna produkt är att den ska automatiskt kunna reglera värme baserat mätningar. I vår prototyp så kommer vi fokusera på ett system som kan presentera data från riktiga värmemätningar. Datan och graferna ska vara tillgänglig via nätet där användaren själv skall kunna läsa av uppvärmningen av sitt hem.
+
+Material : Rasberry pie, Tempraturmätare,
